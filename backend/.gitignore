@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Secrets & Environment Variables
+.env
+*.env
+*.pem
+
+# Build outputs & Logs
+dist/
+build/
+*.log
+
+# System files
+.DS_Store

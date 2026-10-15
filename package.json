@@ -1,0 +1,24 @@
+{
+  "name": "fluid-speak",
+  "version": "1.0.0",
+  "description": "Application for people suffering from stammering",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint frontend backend",
+    "lint:fix": "eslint frontend backend --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10"
+  }
+}
